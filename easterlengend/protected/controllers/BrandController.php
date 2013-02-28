@@ -1,6 +1,6 @@
 <?php
 
-class ProductController extends Controller
+class BrandController extends Controller
 {
 	public $layout='main';
 

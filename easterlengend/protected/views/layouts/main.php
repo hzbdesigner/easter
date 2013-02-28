@@ -27,7 +27,7 @@
 							<li class="dropdown"><a href="#em">经营理念</a></li>
 						</ul>
 					</li>
-					<li class="brand  nav-cell"><a href="#" > </a>
+					<li class="brand  nav-cell"><a href="<?php echo $this->createUrl('/brand');?>" > </a>
 						<ul class="dropdowns">
 							<li class="dropdown"><a href="#em">Karges</a></li>
 							<li class="dropdown"><a href="#em">Henkel Harris</a></li>
