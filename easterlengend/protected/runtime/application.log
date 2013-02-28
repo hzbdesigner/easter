@@ -1,0 +1,1619 @@
+2013/02/28 07:40:29 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "creatUrl".' in /Applications/MAMP/htdocs/apps/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): CComponent->__call('creatUrl', Array)
+#1 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): CWebApplication->creatUrl('product/index')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(127): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/SiteController.php(23): CController->render('index')
+#6 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('')
+#11 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#12 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#14 {main}
+REQUEST_URI=/apps/easterlengend/
+---
+2013/02/28 07:40:36 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "creatUrl".' in /Applications/MAMP/htdocs/apps/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): CComponent->__call('creatUrl', Array)
+#1 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): CWebApplication->creatUrl('product/index')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(127): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/SiteController.php(23): CController->render('index')
+#6 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('')
+#11 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#12 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#14 {main}
+REQUEST_URI=/apps/easterlengend/
+---
+2013/02/28 08:11:17 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "creatUrl".' in /Applications/MAMP/htdocs/apps/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): CComponent->__call('creatUrl', Array)
+#1 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): SiteController->creatUrl('product/')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(127): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/SiteController.php(23): CController->render('index')
+#6 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('')
+#11 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#12 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#14 {main}
+REQUEST_URI=/apps/easterlengend/
+---
+2013/02/28 08:11:18 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "creatUrl".' in /Applications/MAMP/htdocs/apps/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): CComponent->__call('creatUrl', Array)
+#1 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): SiteController->creatUrl('product/')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(127): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/SiteController.php(23): CController->render('index')
+#6 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('')
+#11 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#12 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#14 {main}
+REQUEST_URI=/apps/easterlengend/
+---
+2013/02/28 08:11:52 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "creatUrl".' in /Applications/MAMP/htdocs/apps/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): CComponent->__call('creatUrl', Array)
+#1 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): SiteController->creatUrl('')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(127): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/SiteController.php(23): CController->render('index')
+#6 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('')
+#11 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#12 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#14 {main}
+REQUEST_URI=/apps/easterlengend/
+---
+2013/02/28 08:11:55 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "creatUrl".' in /Applications/MAMP/htdocs/apps/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): CComponent->__call('creatUrl', Array)
+#1 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): SiteController->creatUrl('')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(127): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/SiteController.php(23): CController->render('index')
+#6 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('')
+#11 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#12 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#14 {main}
+REQUEST_URI=/apps/easterlengend/
+---
+2013/02/28 08:12:27 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "creatUrl".' in /Applications/MAMP/htdocs/apps/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): CComponent->__call('creatUrl', Array)
+#1 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): SiteController->creatUrl('product/index')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(127): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/SiteController.php(23): CController->render('index')
+#6 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('')
+#11 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#12 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#14 {main}
+REQUEST_URI=/apps/easterlengend/
+---
+2013/02/28 08:12:34 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "creatUrl".' in /Applications/MAMP/htdocs/apps/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): CComponent->__call('creatUrl', Array)
+#1 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): SiteController->creatUrl('product/index')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(127): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/SiteController.php(23): CController->render('index')
+#6 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('')
+#11 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#12 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#14 {main}
+REQUEST_URI=/apps/easterlengend/
+HTTP_REFERER=http://localhost/apps/
+---
+2013/02/28 08:12:51 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "creatUrl".' in /Applications/MAMP/htdocs/apps/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): CComponent->__call('creatUrl', Array)
+#1 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): SiteController->creatUrl('/product/index')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(127): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/SiteController.php(23): CController->render('index')
+#6 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('')
+#11 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#12 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#14 {main}
+REQUEST_URI=/apps/easterlengend/
+HTTP_REFERER=http://localhost/apps/
+---
+2013/02/28 08:12:53 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "creatUrl".' in /Applications/MAMP/htdocs/apps/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): CComponent->__call('creatUrl', Array)
+#1 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(30): SiteController->creatUrl('/product/index')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(127): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/SiteController.php(23): CController->render('index')
+#6 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('')
+#11 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#12 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#14 {main}
+REQUEST_URI=/apps/easterlengend/
+HTTP_REFERER=http://localhost/apps/
+---
+2013/02/28 08:15:48 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "creatUrl".' in /Applications/MAMP/htdocs/apps/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(41): CComponent->__call('creatUrl', Array)
+#1 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(41): SiteController->creatUrl('/product/index')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(127): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/SiteController.php(23): CController->render('index')
+#6 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('')
+#11 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#12 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#14 {main}
+REQUEST_URI=/apps/easterlengend/
+---
+2013/02/28 08:15:50 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "creatUrl".' in /Applications/MAMP/htdocs/apps/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(41): CComponent->__call('creatUrl', Array)
+#1 /Applications/MAMP/htdocs/apps/easterlengend/protected/views/layouts/main.php(41): SiteController->creatUrl('/product/index')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(127): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/apps/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/SiteController.php(23): CController->render('index')
+#6 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('')
+#11 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#12 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#14 {main}
+REQUEST_URI=/apps/easterlengend/
+---
+2013/02/28 08:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "product/index".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/index')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/index
+HTTP_REFERER=http://localhost/apps/easterlengend/
+---
+2013/02/28 08:18:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "product/index".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/index')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/index
+HTTP_REFERER=http://localhost/apps/easterlengend/
+---
+2013/02/28 08:19:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "product".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product
+HTTP_REFERER=http://localhost/apps/easterlengend/
+---
+2013/02/28 08:20:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "product".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product
+HTTP_REFERER=http://localhost/apps/easterlengend/
+---
+2013/02/28 08:20:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "product".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product
+HTTP_REFERER=http://localhost/apps/easterlengend/
+---
+2013/02/28 08:20:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "product".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product
+HTTP_REFERER=http://localhost/apps/easterlengend/
+---
+2013/02/28 08:22:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "product".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product
+HTTP_REFERER=http://localhost/apps/easterlengend/
+---
+2013/02/28 08:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/less.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/less.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/less.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/jquery.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/jquery.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/responsiveslides.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/responsivesl...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/responsiveslides.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/modernizr.custom.79639.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/modernizr.cu...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/modernizr.custom.79639.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/hoverdir.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/hoverdir.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/hoverdir.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/demo.css".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('css/demo.css')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/css/demo.css
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/app.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/app.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/slider.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/slider.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/slider.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide1.jpg".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/slide1.j...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/slide1.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide2.jpg".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/slide2.j...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/slide2.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide3.jpg".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/slide3.j...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/slide3.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide4.jpg".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/slide4.j...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/slide4.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/less.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/less.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/less.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/hoverdir.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/hoverdir.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/hoverdir.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/jquery.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/jquery.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/responsiveslides.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/responsivesl...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/responsiveslides.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/demo.css".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('css/demo.css')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/css/demo.css
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/modernizr.custom.79639.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/modernizr.cu...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/modernizr.custom.79639.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/slider.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/slider.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/slider.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/app.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/app.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide1.jpg".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/slide1.j...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/slide1.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide2.jpg".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/slide2.j...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/slide2.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide4.jpg".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/slide4.j...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/slide4.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide3.jpg".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/slide3.j...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/slide3.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/
+---
+2013/02/28 08:22:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "product".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php
+---
+2013/02/28 08:23:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "product".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/less.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/less.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/less.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/jquery.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/jquery.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/demo.css".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('css/demo.css')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/css/demo.css
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/modernizr.custom.79639.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/modernizr.cu...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/modernizr.custom.79639.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/responsiveslides.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/responsivesl...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/responsiveslides.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/app.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/app.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/slider.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/slider.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/slider.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/hoverdir.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/hoverdir.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/hoverdir.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-1.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-1.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-title.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-title.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-4.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-4.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-3.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-3.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-5.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-5.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-7.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-7.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-6.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-6.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-2.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-2.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-8.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-8.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/jquery.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/jquery.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/app.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/app.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/less.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/less.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/less.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/modernizr.custom.79639.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/modernizr.cu...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/modernizr.custom.79639.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/demo.css".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('css/demo.css')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/css/demo.css
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/responsiveslides.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/responsivesl...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/responsiveslides.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/hoverdir.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/hoverdir.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/hoverdir.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/slider.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/slider.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/slider.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-title.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-title.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-3.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-3.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-5.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-5.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-1.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-1.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-2.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-2.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-4.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-4.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-7.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-7.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-6.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-6.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-8.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-8.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/responsiveslides.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/responsivesl...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/responsiveslides.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/less.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/less.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/less.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/demo.css".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('css/demo.css')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/css/demo.css
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/app.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/app.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/jquery.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/jquery.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/modernizr.custom.79639.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/modernizr.cu...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/modernizr.custom.79639.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/slider.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/slider.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/slider.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/hoverdir.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/hoverdir.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/hoverdir.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-title.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-title.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-1.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-1.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-4.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-4.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-3.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-3.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-5.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-5.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-6.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-6.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-7.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-7.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-8.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-8.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-2.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-2.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/responsiveslides.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/responsivesl...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/responsiveslides.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/less.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/less.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/less.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/demo.css".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('css/demo.css')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/css/demo.css
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/jquery.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/jquery.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/modernizr.custom.79639.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/modernizr.cu...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/modernizr.custom.79639.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/slider.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/slider.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/slider.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/app.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/app.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/hoverdir.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/hoverdir.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/hoverdir.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-2.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-2.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-title.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-title.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-1.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-1.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-3.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-3.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-5.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-5.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-4.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-4.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-6.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-6.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-7.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-7.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-8.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-8.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:31:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/responsiveslides.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/responsivesl...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/responsiveslides.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:31:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/app.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/app.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:31:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/slider.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/slider.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/slider.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:31:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/modernizr.custom.79639.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/modernizr.cu...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/modernizr.custom.79639.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:31:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/hoverdir.js".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('js/hoverdir.js')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/js/hoverdir.js
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-title.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-title.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-2.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-2.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-1.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-1.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-3.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-3.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-4.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-4.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-5.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-5.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-6.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-6.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-7.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-7.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-8.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-8.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:31:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('index.html')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/index.html
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide1.jpg".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/slide1.j...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/slide1.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/site
+---
+2013/02/28 08:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide2.jpg".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/slide2.j...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/slide2.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/site
+---
+2013/02/28 08:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide4.jpg".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/slide4.j...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/slide4.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/site
+---
+2013/02/28 08:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide3.jpg".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/slide3.j...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/slide3.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/site
+---
+2013/02/28 08:38:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-2.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-2.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:38:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-title.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-title.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:38:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-5.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-5.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:38:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-6.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-6.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:38:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-4.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-4.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:38:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-3.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-3.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:38:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-8.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-8.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:38:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-1.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-1.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:38:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-small-7.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-small-7.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 08:39:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/product-title.png".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('images/product-...')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/images/product-title.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 09:03:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "product.html".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product.html')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product.html
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product
+---
+2013/02/28 09:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/product-title.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube4.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube1.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube5.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube2.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube3.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/product-title.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube3.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube1.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube2.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube5.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube4.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:05:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube4.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:05:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube1.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:05:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube5.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:05:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube2.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:06:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube4.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:06:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube2.jpg
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
+2013/02/28 09:06:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('product/images/...')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube5.png
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
+---
