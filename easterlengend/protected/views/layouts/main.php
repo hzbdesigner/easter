@@ -29,13 +29,13 @@
 					</li>
 					<li class="brand  nav-cell"><a href="<?php echo $this->createUrl('/brand');?>" > </a>
 						<ul class="dropdowns">
-							<li class="dropdown"><a href="#em">Karges</a></li>
-							<li class="dropdown"><a href="#em">Henkel Harris</a></li>
-							<li class="dropdown"><a href="#em">Henredon</a></li>
-							<li class="dropdown"><a href="#em">Ourhouse</a></li>
-							<li class="dropdown"><a href="#em">Maitland Smith</a></li>
-							<li class="dropdown"><a href="#em">Jonathan Charles</a></li>
-							<li class="dropdown"><a href="#em">East Legnds</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/brand/Karges');?>">Karges</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/brand/Henkel_Harris');?>">Henkel Harris</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/brand/Henredon');?>">Henredon</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/brand/Ourhouse');?>">Ourhouse</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/brand/Maitland_Smith');?>">Maitland Smith</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/brand/Jonathan_Charles');?>">Jonathan Charles</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/brand/Eastern_Legend');?>">Eastern Legend</a></li>
 						</ul>
 					</li>
 
@@ -49,12 +49,12 @@
 							<li class="dropdown"><a href="#em">其他</a></li>
 						</ul>
 					</li>
-					<li class="service  nav-cell"><a href="#"> </a>
+					<li class="service  nav-cell"><a href="<?php echo $this->createUrl('/service');?>" > </a>
 						<ul class="dropdowns">
-							<li class="dropdown"><a href="#em">配送服务</a></li>
-							<li class="dropdown"><a href="#em">保养维护</a></li>
-							<li class="dropdown"><a href="#em">家居顾问</a></li>
-							<li class="dropdown"><a href="#em">留言反馈</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/service/index') ; ?>">配送服务</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/service/baoyang') ; ?>">保养维护</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/service/guwen') ; ?>">家居顾问</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/service/liuyan') ; ?>">留言反馈</a></li>
 						</ul>
 					</li>
 					<li class="activity  nav-cell"><a href="#"> </a>

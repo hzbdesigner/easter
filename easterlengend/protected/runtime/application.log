@@ -1617,3 +1617,345 @@ Stack trace:
 REQUEST_URI=/apps/easterlengend/index.php/product/images/large_cube5.png
 HTTP_REFERER=http://localhost/apps/easterlengend/index.php/product/view
 ---
+2013/02/28 16:11:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('view')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/view
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/brand
+---
+2013/02/28 16:11:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('view')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/view
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/brand
+---
+2013/02/28 16:11:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('view')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/view
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/brand
+---
+2013/02/28 16:12:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('view')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/view
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/brand
+---
+2013/02/28 16:12:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('view')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/view
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/brand
+---
+2013/02/28 16:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('view')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/view
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/brand
+---
+2013/02/28 16:17:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('view')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/view
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/brand
+---
+2013/02/28 16:20:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('view')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/view
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/brand
+---
+2013/03/01 07:25:43 [error] [exception.CException] exception 'CException' with message 'ServiceController cannot find the requested view "peisong".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/ServiceController.php(13): CController->renderPartial('peisong', Array, true)
+#1 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): ServiceController->actionIndex()
+#2 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('')
+#6 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('service')
+#7 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#9 {main}
+REQUEST_URI=/apps/easterlengend/index.php/service
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/site
+---
+2013/03/01 07:26:05 [error] [exception.CException] exception 'CException' with message 'ServiceController cannot find the requested view "peisong".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/ServiceController.php(13): CController->renderPartial('peisong', Array, true)
+#1 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): ServiceController->actionIndex()
+#2 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('')
+#6 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('service')
+#7 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#9 {main}
+REQUEST_URI=/apps/easterlengend/index.php/service
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/site
+---
+2013/03/01 07:26:07 [error] [exception.CException] exception 'CException' with message 'ServiceController cannot find the requested view "peisong".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/ServiceController.php(13): CController->renderPartial('peisong', Array, true)
+#1 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): ServiceController->actionIndex()
+#2 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('')
+#6 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('service')
+#7 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#9 {main}
+REQUEST_URI=/apps/easterlengend/index.php/service
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/site
+---
+2013/03/01 08:50:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "baoyang".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('baoyang')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/baoyang
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/service
+---
+2013/03/01 08:51:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "baoyang".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('baoyang')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/baoyang
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/service
+---
+2013/03/01 08:52:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "baoyang".' in /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('baoyang')
+#1 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/apps/easterlengend/index.php/baoyang
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/service
+---
+2013/03/01 09:12:59 [error] [php] Trying to get property of non-object (/Applications/MAMP/htdocs/apps/easterlengend/protected/views/service/index.php:12)
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(870): ServiceController->renderFile()
+#1 /Applications/MAMP/htdocs/apps/framework/web/CController.php(783): ServiceController->renderPartial()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/ServiceController.php(14): ServiceController->render()
+#3 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): ServiceController->actionIndex()
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): ServiceController->runAction()
+#6 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): ServiceController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): ServiceController->run()
+#8 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CWebApplication->run()
+REQUEST_URI=/apps/easterlengend/index.php/service/index
+2013/03/01 09:13:06 [error] [php] Trying to get property of non-object (/Applications/MAMP/htdocs/apps/easterlengend/protected/views/service/index.php:12)
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(870): ServiceController->renderFile()
+#1 /Applications/MAMP/htdocs/apps/framework/web/CController.php(783): ServiceController->renderPartial()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/ServiceController.php(14): ServiceController->render()
+#3 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): ServiceController->actionIndex()
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): ServiceController->runAction()
+#6 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): ServiceController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): ServiceController->run()
+#8 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CWebApplication->run()
+REQUEST_URI=/apps/easterlengend/index.php/service
+2013/03/01 09:14:31 [error] [php] Trying to get property of non-object (/Applications/MAMP/htdocs/apps/easterlengend/protected/views/service/index.php:12)
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(870): ServiceController->renderFile()
+#1 /Applications/MAMP/htdocs/apps/framework/web/CController.php(783): ServiceController->renderPartial()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/ServiceController.php(14): ServiceController->render()
+#3 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): ServiceController->actionIndex()
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): ServiceController->runAction()
+#6 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): ServiceController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): ServiceController->run()
+#8 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CWebApplication->run()
+REQUEST_URI=/apps/easterlengend/index.php/service
+2013/03/01 09:14:33 [error] [php] Trying to get property of non-object (/Applications/MAMP/htdocs/apps/easterlengend/protected/views/service/index.php:12)
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(870): ServiceController->renderFile()
+#1 /Applications/MAMP/htdocs/apps/framework/web/CController.php(783): ServiceController->renderPartial()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/ServiceController.php(14): ServiceController->render()
+#3 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): ServiceController->actionIndex()
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): ServiceController->runAction()
+#6 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): ServiceController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): ServiceController->run()
+#8 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CWebApplication->run()
+REQUEST_URI=/apps/easterlengend/index.php/service
+2013/03/01 09:14:35 [error] [php] Trying to get property of non-object (/Applications/MAMP/htdocs/apps/easterlengend/protected/views/service/index.php:12)
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(870): ServiceController->renderFile()
+#1 /Applications/MAMP/htdocs/apps/framework/web/CController.php(783): ServiceController->renderPartial()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/ServiceController.php(14): ServiceController->render()
+#3 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): ServiceController->actionIndex()
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): ServiceController->runAction()
+#6 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): ServiceController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): ServiceController->run()
+#8 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CWebApplication->run()
+REQUEST_URI=/apps/easterlengend/index.php/service
+2013/03/01 09:14:42 [error] [php] Trying to get property of non-object (/Applications/MAMP/htdocs/apps/easterlengend/protected/views/service/index.php:12)
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(870): ServiceController->renderFile()
+#1 /Applications/MAMP/htdocs/apps/framework/web/CController.php(783): ServiceController->renderPartial()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/ServiceController.php(14): ServiceController->render()
+#3 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): ServiceController->actionIndex()
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): ServiceController->runAction()
+#6 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): ServiceController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): ServiceController->run()
+#8 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CWebApplication->run()
+REQUEST_URI=/apps/easterlengend/index.php/service
+2013/03/01 09:15:40 [error] [php] Trying to get property of non-object (/Applications/MAMP/htdocs/apps/easterlengend/protected/views/service/index.php:12)
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(870): ServiceController->renderFile()
+#1 /Applications/MAMP/htdocs/apps/framework/web/CController.php(783): ServiceController->renderPartial()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/ServiceController.php(14): ServiceController->render()
+#3 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): ServiceController->actionIndex()
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): ServiceController->runAction()
+#6 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): ServiceController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): ServiceController->run()
+#8 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CWebApplication->run()
+REQUEST_URI=/apps/easterlengend/index.php/service
+2013/03/01 09:15:45 [error] [php] Trying to get property of non-object (/Applications/MAMP/htdocs/apps/easterlengend/protected/views/service/index.php:12)
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(870): ServiceController->renderFile()
+#1 /Applications/MAMP/htdocs/apps/framework/web/CController.php(783): ServiceController->renderPartial()
+#2 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/ServiceController.php(14): ServiceController->render()
+#3 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): ServiceController->actionIndex()
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): ServiceController->runAction()
+#6 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): ServiceController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): ServiceController->run()
+#8 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CWebApplication->run()
+REQUEST_URI=/apps/easterlengend/index.php/service
+2013/03/01 09:58:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/framework/web/CController.php(271): CController->missingAction('view')
+#1 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('view')
+#2 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('brand/view')
+#3 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/apps/easterlengend/index.php/brand/view
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/brand/Karges
+---
+2013/03/01 10:06:34 [error] [exception.CException] exception 'CException' with message 'BrandController cannot find the requested view "Maitland_Smith".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/BrandController.php(38): CController->renderPartial('Maitland_Smith', Array, true)
+#1 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): BrandController->actionMaitland_Smith()
+#2 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('Maitland_Smith')
+#6 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('brand/Maitland_...')
+#7 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#9 {main}
+REQUEST_URI=/apps/easterlengend/index.php/brand/Maitland_Smith
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/brand/Karges
+---
+2013/03/01 10:06:48 [error] [exception.CException] exception 'CException' with message 'BrandController cannot find the requested view "Maitland_Smith".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/BrandController.php(38): CController->renderPartial('Maitland_Smith', Array, true)
+#1 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): BrandController->actionMaitland_Smith()
+#2 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('Maitland_Smith')
+#6 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('brand/Maitland_...')
+#7 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#9 {main}
+REQUEST_URI=/apps/easterlengend/index.php/brand/Maitland_Smith
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/brand/Karges
+---
+2013/03/01 10:13:03 [error] [exception.CException] exception 'CException' with message 'BrandController cannot find the requested view "Maitland_Smith".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/BrandController.php(38): CController->renderPartial('Maitland_Smith', Array, true)
+#1 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): BrandController->actionMaitland_Smith()
+#2 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('Maitland_Smith')
+#6 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('brand/Maitland_...')
+#7 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#9 {main}
+REQUEST_URI=/apps/easterlengend/index.php/brand/Maitland_Smith
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/brand/Karges
+---
+2013/03/01 10:13:05 [error] [exception.CException] exception 'CException' with message 'BrandController cannot find the requested view "Maitland_Smith".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/BrandController.php(38): CController->renderPartial('Maitland_Smith', Array, true)
+#1 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): BrandController->actionMaitland_Smith()
+#2 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('Maitland_Smith')
+#6 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('brand/Maitland_...')
+#7 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#9 {main}
+REQUEST_URI=/apps/easterlengend/index.php/brand/Maitland_Smith
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/brand/Karges
+---
+2013/03/01 10:53:29 [error] [exception.CException] exception 'CException' with message 'BrandController cannot find the requested view "Maitland_Smith".' in /Applications/MAMP/htdocs/apps/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/MAMP/htdocs/apps/easterlengend/protected/controllers/BrandController.php(38): CController->renderPartial('Maitland_Smith', Array, true)
+#1 /Applications/MAMP/htdocs/apps/framework/web/actions/CInlineAction.php(50): BrandController->actionMaitland_Smith()
+#2 /Applications/MAMP/htdocs/apps/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /Applications/MAMP/htdocs/apps/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /Applications/MAMP/htdocs/apps/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(283): CController->run('Maitland_Smith')
+#6 /Applications/MAMP/htdocs/apps/framework/web/CWebApplication.php(142): CWebApplication->runController('brand/Maitland_...')
+#7 /Applications/MAMP/htdocs/apps/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/apps/easterlengend/index.php(11): CApplication->run()
+#9 {main}
+REQUEST_URI=/apps/easterlengend/index.php/brand/Maitland_Smith
+HTTP_REFERER=http://localhost/apps/easterlengend/index.php/brand/Ourhouse
+---

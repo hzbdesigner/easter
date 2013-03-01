@@ -5,16 +5,24 @@
 		<div class="container brand">
 
 			<ul class="brand-tabs">
-				<li><a href="#">Brand1</a></li>
-				<li><a href="#">Brand2</a></li>
-				<li><a href="#">Brand3</a></li>
+				<li><a href="<?php echo $this->createUrl('/brand/Karges'); ?>">Karges</a></li>
+				<div class="divider"></div>
+				<li><a href="<?php echo $this->createUrl('/brand/Henkel_Harris') ; ?>">Henkel Harris</a></li>
+				<div class="divider"></div>
+				<li><a href="<?php echo $this->createUrl('/brand/Henredon') ; ?>">Henredon</a></li>
+				<div class="divider"></div>
+				<li><a href="<?php echo $this->createUrl('/brand/Ourhouse') ; ?>">Ourhouse</a></li>
+				<div class="divider"></div>
+				<li><a href="<?php echo $this->createUrl('/brand/Maitland_Smith') ; ?>">Maitland Smith</a></li>
+				<div class="divider"></div>
+				<li><a href="<?php echo $this->createUrl('/brand/Jonathan_Charles') ; ?>">Jonathan Charles</a></li>
+				<div class="divider"></div>
+				<li><a href="<?php echo $this->createUrl('/brand/Eastern_Legend') ; ?>">Eastern Legend</a></li>
 			</ul>
-			<div class="title"><img src="<?php echo Yii::app()->baseUrl; ?>/images/brand-title.png" /></div>
-			<div class="des">如果说百达翡丽诠释了时间，香奈儿成就了女人，法拉利释放了激情，那么东方传奇则传达了一种品味生活。
-				东方传奇公司携当今全球顶级家具品牌重磅登陆中国：Karges， Jonathan Charles, Henkel Harris，Maitland Smith，
-				Our house,  尘封近百年的西方奢靡经典家具的大门至此向我们缓缓敞开。
-			</div>
-			<div class="img"><img src="<?php echo Yii::app()->baseUrl; ?>/images/brand-logos.jpg" /></div>
+
+			<?php echo $sub_content; ?>
+
+			<div class="placeholder"></div>
 		</div>
 	</div>
 
