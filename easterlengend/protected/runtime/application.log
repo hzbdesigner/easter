@@ -1959,3 +1959,33 @@ Stack trace:
 REQUEST_URI=/apps/easterlengend/index.php/brand/Maitland_Smith
 HTTP_REFERER=http://localhost/apps/easterlengend/index.php/brand/Ourhouse
 ---
+2013/03/01 11:28:21 [error] [exception.CException] exception 'CException' with message 'BrandController cannot find the requested view "Maitland_Smith".' in D:\Ampps\www\apps\easter\framework\web\CController.php:879
+Stack trace:
+#0 D:\Ampps\www\apps\easter\easterlengend\protected\controllers\BrandController.php(38): CController->renderPartial('Maitland_Smith', Array, true)
+#1 D:\Ampps\www\apps\easter\framework\web\actions\CInlineAction.php(50): BrandController->actionMaitland_Smith()
+#2 D:\Ampps\www\apps\easter\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 D:\Ampps\www\apps\easter\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 D:\Ampps\www\apps\easter\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\Ampps\www\apps\easter\framework\web\CWebApplication.php(283): CController->run('Maitland_Smith')
+#6 D:\Ampps\www\apps\easter\framework\web\CWebApplication.php(142): CWebApplication->runController('brand/Maitland_...')
+#7 D:\Ampps\www\apps\easter\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Ampps\www\apps\easter\easterlengend\index.php(11): CApplication->run()
+#9 {main}
+REQUEST_URI=/apps/easter/easterlengend/index.php/brand/Maitland_Smith
+HTTP_REFERER=http://localhost/apps/easter/easterlengend/index.php/brand/Ourhouse
+---
+2013/03/02 10:10:24 [error] [exception.CException] exception 'CException' with message 'BrandController cannot find the requested view "Maitland_Smith".' in D:\Ampps\www\apps\easter\framework\web\CController.php:879
+Stack trace:
+#0 D:\Ampps\www\apps\easter\easterlengend\protected\controllers\BrandController.php(38): CController->renderPartial('Maitland_Smith', Array, true)
+#1 D:\Ampps\www\apps\easter\framework\web\actions\CInlineAction.php(50): BrandController->actionMaitland_Smith()
+#2 D:\Ampps\www\apps\easter\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 D:\Ampps\www\apps\easter\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 D:\Ampps\www\apps\easter\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\Ampps\www\apps\easter\framework\web\CWebApplication.php(283): CController->run('Maitland_Smith')
+#6 D:\Ampps\www\apps\easter\framework\web\CWebApplication.php(142): CWebApplication->runController('brand/Maitland_...')
+#7 D:\Ampps\www\apps\easter\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Ampps\www\apps\easter\easterlengend\index.php(11): CApplication->run()
+#9 {main}
+REQUEST_URI=/apps/easter/easterlengend/index.php/brand/Maitland_Smith
+HTTP_REFERER=http://localhost/apps/easter/easterlengend/index.php/brand/Ourhouse
+---
