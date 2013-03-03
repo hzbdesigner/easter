@@ -1,7 +1,7 @@
 
 
 	<div class="page-wrapper brand">
-		<div class="nav-placeholder"></div>
+		<div class="nav-placeholder top"></div>
 		<div class="container brand">
 
 			<ul class="brand-tabs">
@@ -24,5 +24,6 @@
 
 			<div class="placeholder"></div>
 		</div>
+		<div class="nav-placeholder bottom"></div>
 	</div>
 

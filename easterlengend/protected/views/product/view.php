@@ -1,6 +1,6 @@
 
 	<div class="page-wrapper">
-		<div class="nav-placeholder"></div>
+		<div class="nav-placeholder top"></div>
 		<div class="title"><img src="<?php echo Yii::app()->baseUrl ; ?>/images/product-title.png" /></div>
 		<a class="back-to-lists" href="products.html"><<返回列表</a>
 		<section id="ps-container" class="ps-container">
@@ -62,6 +62,6 @@
 			</div><!-- /ps-slidewrapper -->
 			
 		</section><!-- /ps-container -->
-		
+		<div class="nav-placeholder top"></div>
 	</div>
 

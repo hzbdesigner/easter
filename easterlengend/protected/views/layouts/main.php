@@ -8,7 +8,7 @@
 <link href="<?php echo Yii::app()->baseUrl ; ?>/css/horizon.less" rel="stylesheet/less" type="text/css">
 <script language="javascript" src="<?php echo Yii::app()->baseUrl ; ?>/js/jquery.js"></script>
 <script language="javascript" src="<?php echo Yii::app()->baseUrl ; ?>/js/less.js"></script>
-<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->baseUrl; ?>/css/style2.css">
+<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->baseUrl; ?>/css/demo.css">
 
 <!--demo  code example-->
 
@@ -21,11 +21,11 @@
 			<a href="<?php echo $this->createUrl('/site') ; ?>" class="logo">logo</a>
 			<div class="nav-inner">
 				<ul class="navs">
-					<li class="about nav-cell"><a href="#"> </a>
+					<li class="about nav-cell"><a href="<?php echo $this->createUrl('/about');?>"> </a>
 						<ul class="dropdowns">
-							<li class="dropdown"><a href="#em">公司简介</a></li>
-							<li class="dropdown"><a href="#em">企业文化</a></li>
-							<li class="dropdown"><a href="#em">经营理念</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/about/brief');?>">公司简介</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/about/culture');?>">企业文化</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/about/idea');?>">经营理念</a></li>
 						</ul>
 					</li>
 					<li class="brand  nav-cell"><a href="<?php echo $this->createUrl('/brand');?>" > </a>
@@ -58,14 +58,14 @@
 							<li class="dropdown"><a href="<?php echo $this->createUrl('/service/liuyan') ; ?>">留言反馈</a></li>
 						</ul>
 					</li>
-					<li class="activity  nav-cell"><a href="#"> </a>
+					<li class="activity  nav-cell"><a href="<?php echo $this->createUrl('/activity/online');?>"> </a>
 						<ul class="dropdowns">
-							<li class="dropdown"><a href="#em">在线活动</a></li>
-							<li class="dropdown"><a href="#em">历史活动</a></li>
-							<li class="dropdown"><a href="#em">公司事迹</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/activity/online');?>">在线活动</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/activity/history');?>">历史活动</a></li>
+							<li class="dropdown"><a href="<?php echo $this->createUrl('/activity/company');?>">公司事迹</a></li>
 						</ul>
 					</li>
-					<li class="contact  nav-cell"><a href="#"> </a></li>
+					<li class="contact  nav-cell"><a href="<?php echo $this->createUrl('/contact');?>"> </a></li>
 				</ul>
 			</div>
 		</div>

@@ -1,7 +1,7 @@
 
 
 	<div class="page-wrapper">
-		<div class="nav-placeholder"></div>
+		<div class="nav-placeholder top"></div>
 		<div class="container">
 			<div class="title"><img src="<?php echo Yii::app()->baseUrl; ?>/images/product-title.png" /></div>
 			<div class="filter">
@@ -101,5 +101,6 @@
 				
 			</div>
 		</div>
+		<div class="nav-placeholder bottom"></div>
 	</div>
 

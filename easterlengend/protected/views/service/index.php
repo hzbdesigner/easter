@@ -1,7 +1,7 @@
 
 
-	<div class="page-wrapper brand">
-		<div class="nav-placeholder"></div>
+	<div class="page-wrapper service">
+		<div class="nav-placeholder top"></div>
 		<div class="container service">
 			<div class="title"><img src="<?php echo Yii::app()->baseUrl; ?>/images/service-title.jpg" /></div>
 
@@ -24,5 +24,6 @@
 			<div class="placeholder"></div>
 			
 		</div>
+		<div class="nav-placeholder bottom"></div>
 	</div>
 
